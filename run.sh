@@ -1,0 +1,1 @@
+python main.py --model models/keras6.h5 --classes class_names_en.txt
