@@ -70,7 +70,7 @@ def loop(cap, model, classes):
     while True:
         # stop if the prediction is valid
         if valid:
-            time.sleep(10)
+            time.sleep(5)
 
         # Capture frame-by-frame
         _, frame = cap.read()
